@@ -28,8 +28,8 @@ df_train.info()
 df_test.info()
 
 # %%
-display(df_train)
-# display(df_test)
+print(df_train)
+# print(df_test)
 
 # %%
 # Show total of people onboard
@@ -71,34 +71,34 @@ df_test['Agerange'] = pd.cut(df_test.Age, bins,include_lowest = True)
 # Check most common age range among male passengers that survived in the first class
 male_surv_first_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 1) & (df_train.Survived == 1)]
 print(male_surv_first_class.Agerange.mode())
-# display(male_surv_first_class)
+# print(male_surv_first_class)
 
 # Check most common age range among female passengers that survived in the first class
 female_surv_first_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 1) & (df_train.Survived == 1)]
 print(female_surv_first_class.Agerange.mode())
-# display(male_surv_first_class)
+# print(male_surv_first_class)
 
 # %%
 # Check most common age range among male passengers that survived in the second class
 male_surv_second_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 2) & (df_train.Survived == 1)]
 print(male_surv_second_class.Agerange.mode())
-# display(male_surv_second_class)
+# print(male_surv_second_class)
 
 # Check most common age range among female passengers that survived in the second class
 female_surv_second_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 2) & (df_train.Survived == 1)]
 print(female_surv_second_class.Agerange.mode())
-# display(male_surv_second_class)
+# print(male_surv_second_class)
 
 # %%
 # Check most common age range among male passengers that survived in the third class
 male_surv_third_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 3) & (df_train.Survived == 1)]
 print(male_surv_third_class.Agerange.mode())
-# display(male_surv_third_class)
+# print(male_surv_third_class)
 
 # Check most common age range among female passengers that survived in the third class
 female_surv_third_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 3) & (df_train.Survived == 1)]
 print(female_surv_third_class.Agerange.mode())
-display(female_surv_third_class)
+print(female_surv_third_class)
 
 # %%
 # Shows how many male passengers did not survive
@@ -303,34 +303,34 @@ df_test['Farerange'] = pd.cut(df_test.Fare, bins, labels = bin_labels_fare,inclu
 # Check the most common fare range among surving male passengers in first class
 male_surv_first_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 1) & (df_train.Survived == 1)]
 print(male_surv_first_class.Farerange.mode())
-# display(male_surv_first_class)
+# print(male_surv_first_class)
 
 # Check the most common fare range among surving female passengers in first class
 female_surv_first_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 1) & (df_train.Survived == 1)]
 print(female_surv_first_class.Farerange.mode())
-# display(male_surv_first_class)
+# print(male_surv_first_class)
 
 # %%
 # Check the most common fare range among surving male passengers in second class
 male_surv_second_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 2) & (df_train.Survived == 1)]
 print(male_surv_second_class.Farerange.mode())
-# display(male_surv_second_class)
+# print(male_surv_second_class)
 
 # Check the most common fare range among surving female passengers in second class
 female_surv_second_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 2) & (df_train.Survived == 1)]
 print(female_surv_second_class.Farerange.mode())
-# display(male_surv_second_class)
+# print(male_surv_second_class)
 
 # %%
 # Check the most common fare range among surving male passengers in third class
 male_surv_third_class = df_train[(df_train.Sex == 'male') & (df_train.Pclass == 3) & (df_train.Survived == 1)]
 print(male_surv_third_class.Farerange.mode())
-# display(male_surv_third_class)
+# print(male_surv_third_class)
 
 # Check the most common fare range among surving female passengers in third class
 female_surv_third_class = df_train[(df_train.Sex == 'female') & (df_train.Pclass == 3) & (df_train.Survived == 1)]
 print(female_surv_third_class.Farerange.mode())
-# display(male_surv_third_class)
+# print(male_surv_third_class)
 
 # %%
 df_train['Comp'] = df_train['SibSp'] + df_train['Parch']
@@ -382,8 +382,8 @@ df_test.loc[(df_test['Fare'] > 500), 'Survived'] = 1
 # Create new dataframe that only contains de PassengerId and Survived columns
 data = df_test[['PassengerId', 'Survived']]
 
-# Display the new dataframe
-display(data)
+# print the new dataframe
+print(data)
 
 # Create a csv file of the dataframe called result
 # data.to_csv('result.csv', index=False)
