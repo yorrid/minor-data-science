@@ -1,0 +1,143 @@
+﻿OBJECTNUMMER;Code;Locatie;Type_meetpunt;Type_meting;Meting_op_wettelijke_toetsafst;Afstand_tot_gevel_m;jaar_2020;jaar_2019;jaar_2018;jaar_2017;jaar_2016;jaar_2015;jaar_2014;jaar_2013;jaar_2012;jaar_2011;jaar_2010;LNG;LAT
+1;IJB19;Ijsbaanpad 19;Achtergrond;Palmes;;0;0;25,9;26,8;29,2;28,4;26,6;27,3;31,1;31,8;31,3;31;4,853005;52,341093
+2;DECL40;de Clercqstraat 40;Straat;Palmes;Nee;0;0;31,6;29,6;38,4;42,1;38,5;39,5;38;39,7;40,6;43,4;4,871005;52,370993
+3;SPD165;Spaarndammerdijk 165;Straat;Palmes;Ja;0;0;32,4;33,3;51,2;49,2;0;0;0;0;0;0;4,875005;52,392793
+4;SPD53;Spaarndammerdijk 53;Straat;Palmes;Ja;0;0;30,7;31,4;43,1;0;0;40,5;38,4;43,5;44,1;0;4,876005;52,392993
+5;SPD29;Spaarndammerdijk 29;Straat;Palmes;Ja;0;0;31,5;29,8;44,4;0;0;38,8;38;41,5;43,3;0;4,877005;52,391993
+6;SPUI250;Spuistraat 250;Straat;Palmes;Ja;0;0;24,4;27,3;31,3;31,5;32,2;34,4;34,8;0;0;0;4,889005;52,370993
+7;DAM 243;Damrak 243;Straat;Palmes;Nee;0;0;31,5;35,6;39,3;39,7;39,7;0;49,8;50,3;50,7;49,9;4,896005;52,374993
+8;DAM23;Damrak t,o, 23 (aanlegsteiger);Straat;Palmes;Nee;31,3;0;38,7;43,7;50,1;47,2;45,3;46,7;46,4;48,8;0;0;4,898005;52,376993
+9;STDK156;Stadhouderskade 156;Straat;Palmes;Nee;6;0;38,9;39,7;43,6;44,5;39,3;44,3;38,7;42,2;43,8;44,1;4,903005;52,358993
+10;HEN124;Prins Hendrikkade 124;Straat;Palmes;Nee;4,1;0;40,8;48;54,7;55;52,4;55,8;51,1;56,3;56,9;59,3;4,905005;52,373993
+11;AMS45;Amsteldijk 45;Straat;Palmes;Ja;0;0;29,2;32,1;32,6;0;0;0;0;0;0;0;4,906005;52,354693
+12;KH32;Kattenburgerhof 32;Achtergrond;Palmes;;0;0;22,7;23,4;27,7;26,7;26,6;0;0;0;0;0;4,918005;52,371693
+13;COBA10;Count Baseystraat 100;Achtergrond;Palmes;;0;0;19,3;20,5;22,1;23,1;22,1;23,1;23,7;24,4;24,6;26,8;4,825405;52,343993
+14;AL29;Aart van der Leeuwstraat 29;Achtergrond;Palmes;;0;0;23,1;22,6;24,3;25,5;22,6;25;25;27,6;28,3;28;4,831905;52,375993
+15;CHL10;Charles Leickertstraat 10;Achtergrond;Palmes;;0;0;24,9;28,1;28,4;28,9;28,4;29,6;0;0;0;0;4,841205;52,359993
+16;HLW645;Haarlemmerweg 645;Straat;Palmes;Ja;0;0;28,6;29,5;33,4;34,5;33,3;33,5;31,8;35,5;37,9;38,1;4,848505;52,384993
+17;SB28674;Spaanse Brabanderstraat;Achtergrond;Palmes;;0;0;27;28,5;29,2;29,4;29,9;29,4;29,5;0;0;0;4,848805;52,380093
+18;GIBR67;Gibraltarstraat 67;Achtergrond;Palmes;;0;0;25;25;27,5;28,2;27,1;27,3;28,5;30,3;31,6;34,2;4,849605;52,384093
+19;JVG255;Jan van Galenstraat 255;Straat;Palmes;Nee;7,3;0;44,1;45,6;52,1;48,1;46,7;48,4;49,4;51,6;49,9;52;4,850905;52,372993
+20;TOR68;Torresstraat 68;Achtergrond;Palmes;;0;0;22,9;21,6;25,3;25,3;24,8;26,2;27,9;29,6;30;28,3;4,851405;52,371893
+21;ZEIL34;Zeilstraat 34;Straat;Palmes;Ja;0;0;29;32,7;37,1;35,9;32,7;37,9;39,5;39,9;40,7;46,7;4,854505;52,350993
+22;HS6;Havenstraat 6;Achtergrond;Palmes;;0;0;23,9;24,5;27,8;26,6;25,7;27,1;28,4;29,1;28,3;31,7;4,855705;52,349293
+23;OVT557;Overtoom 557;Straat;Palmes;Nee;13;0;32,9;37,1;40,4;41;40,5;43,8;46,1;46,2;46,8;48,6;4,855805;52,357993
+24;PVDD67;Pieter v/d Doesstraat 67;Achtergrond;Palmes;;0;0;25,2;26,4;30,1;29,2;27,7;27,9;27,8;30,8;30,4;31;4,856605;52,373793
+25;JVG151;Jan van Galenstraat 155;Straat;Palmes;Nee;4,9;0;35,2;39,4;41,3;41,3;37,3;41,4;40,1;43,3;41,8;0;4,856805;52,373993
+26;AVW390;Amstelveenseweg 390;Straat;Palmes;Nee;13;0;38,2;40,2;50,4;49,6;46,8;47,5;47,1;50,7;50,6;50;4,857505;52,341993
+27;AVW761;Amstelveenseweg 765;Straat;Palmes;Nee;13;0;35,8;37,8;46,3;46,6;39,7;41,4;45;43,4;46,5;49,6;4,857605;52,327993
+28;AVW211;Amstelveenseweg 211;Straat;Palmes;Nee;6;0;27,6;28,9;32,5;37,5;35,6;38,2;38,3;39,8;38,7;42,4;4,857905;52,347993
+29;TPBV;vd Boechortstraat 1 (Tennispark);Achtergrond;Palmes;;0;0;21,3;22,3;24,6;26,1;24,5;26,1;27,9;29,4;27,1;31;4,861705;52,329093
+30;DECL110;de Clercqstraat 110;Straat;Palmes;Nee;3,9;0;33,3;30,3;38,1;40,7;36,9;38,7;39;40,3;40,7;43,2;4,866405;52,369993
+31;VBP166;van Beuningenplein 148;Achtergrond;Palmes;;0;0;22,2;22,6;24,6;24,7;22,8;26,1;25,9;28,7;29,9;29,4;4,869705;52,380793
+32;OVT167;Overtoom 167;Straat;Palmes;Nee;13;0;32,7;35,2;39,2;41,5;39,7;41,6;42,4;44,7;46,6;46,6;4,871505;52,361993
+33;ALP17;Alard Piersonstraat 17;Achtergrond;Palmes;;0;0;24,1;25,3;28,1;27;31,1;27,2;28,8;30,4;0;0;4,872605;52,370293
+34;BAN8;Banstraat 8;Achtergrond;Palmes;;0;0;21,9;23,3;25,4;25,9;24,9;26,6;26,4;29,3;28,2;29,8;4,873505;52,355693
+35;HLW119;Haarlemmerweg 119;Straat;Palmes;Ja;0;0;30,5;34,2;38,2;38,9;0;0;0;0;0;0;4,873805;52,385293
+36;1HDG17;1e Hugo de Grootstraat 17;Achtergrond;Palmes;;0;0;24,7;26,4;28,1;28;26,1;26,2;27,4;30,6;28,3;30,3;4,874205;52,375993
+37;NK168;Nassaukade 168;Straat;Palmes;Ja;0;0;35,6;36,5;41,3;39,5;37,4;37,8;37,1;40,7;43,5;43,5;4,874505;52,370993
+38;HEM187;Hembrugstraat 187;Achtergrond;Palmes;;0;0;23;24,2;26,7;25,6;25,4;25,8;26;28;28,9;0;4,874505;52,391093
+39;HDG7;2e Hugo de Grootstraat 7;Straat;Palmes;Ja;0;0;40,2;45,5;47,1;47,3;44,3;45;44,3;47,7;43,7;40,8;4,874605;52,373993
+40;OVT89;Overtoom 89;Straat;Palmes;Nee;2,4;0;40,4;47,1;51,9;53,5;50;54,3;56;55;55,7;54,5;4,875205;52,362993
+41;HLW77;Haarlemmerweg 77 (gevel);Straat;Palmes;Ja;0;0;35,4;40,2;46,2;0;43,3;46,4;43,6;49,1;0;0;4,875805;52,384993
+42;CON;Constantijn Huijgenstraat hoek Vondelstr;Straat;Palmes;Ja;0;0;32,3;33,7;37,2;36,3;0;0;0;0;0;0;4,876205;52,361693
+43;OVT64;Overtoom 64;Straat;Palmes;Ja;0;0;35;38,1;42,8;43,9;0;0;0;0;0;0;4,876205;52,363093
+44;HDP104;van Hogendorpplein 104;Achtergrond;Palmes;;0;0;23,4;23,9;26;27,2;25,1;27,5;26,3;31,5;28,9;31,2;4,876805;52,384593
+45;WPW35;Willemsparkweg 35;Straat;Palmes;Ja;0;0;29,4;30,3;36,5;35,5;32,4;32,8;34,2;35,1;33,6;34,9;4,876905;52,357993
+46;NK370;Nassaukade 370;Straat;Palmes;Ja;0;0;32,4;35;45,1;42,5;0;0;0;0;0;0;4,878405;52,365393
+47;TAS373;Tasmanstraat 373;Straat;Palmes;Ja;0;0;27;29,2;42,6;41,3;40,5;40,5;37,4;45,6;44,6;44,5;4,879405;52,390993
+48;BLM93;Bloemgracht 93;Achtergrond;Palmes;;0;0;26,7;30,8;31,1;30,2;29,2;31,8;31,1;33;32,4;33,8;4,879505;52,374293
+49;TAS45;Tasmanstraat 45;Straat;Palmes;Ja;0;0;28,2;30,9;35,3;39,3;36,8;37,5;36,8;41,5;41,6;39,4;4,882105;52,390993
+50;LUYK38;Jan Luijkenstraat 38;Achtergrond;Palmes;;0;0;22,9;23,9;28,2;28;28,2;28,4;29;30,7;31,1;32,1;4,882305;52,360093
+51;NOVA116;Nova Zemblastraat 116;Achtergrond;Palmes;;0;0;23,4;25,2;26,6;26,4;26,3;28,3;26,8;29;29,3;31,8;4,882805;52,390393
+52;STDk30;Stadhouderskade 30;Straat;Palmes;Ja;0;0;40,5;42,2;51,8;48,8;49,4;49,4;48,8;53,2;54,6;51,5;4,883405;52,361993
+53;VH42;van Heemskerckstraat 42;Achtergrond;Palmes;;0;0;25,9;26,2;28;28,9;26,7;26,4;26,6;30,8;29,4;31,5;4,886205;52,389193
+54;STDK55;Stadhouderskade 55;Straat;Palmes;Nee;5,1;0;44,7;47,6;54,5;54,4;53,8;54,8;52,9;58,5;59,1;53,9;4,888505;52,358993
+55;STDK58;Stadhouderskade 58;Straat;Palmes;Ja;0;0;43,6;45,6;53,4;51,2;0;0;0;0;0;0;4,888605;52,358593
+56;ZUID317;Zuideinde 317 (A10-Noord);Snelweg;Palmes;Nee;5,8;0;30,7;32,5;35,4;34,6;34,1;35,1;33,8;36,2;35,4;36,6;4,888805;52,423993
+57;HOUT43;Haarlemmerhouttuinen 43;Straat;Palmes;Ja;0;0;30,8;35,3;0;0;0;0;0;0;0;0;4,891105;52,381293
+58;WDK;Westerdokskade;Achtergrond;Palmes;;0;0;32,8;34,8;33,7;33;30;31,7;31,7;33,7;33,4;33,4;4,891305;52,382593
+59;EUP61;Europaplein 61;Straat;Palmes;Nee;13,3;0;36,5;41;44,2;42,2;40,6;41,7;44,7;50;51,3;45,7;4,892305;52,342993
+60;WDD103;Westerdoksdijk 103;Straat;Palmes;Ja;0;0;33,2;33,9;34,7;0;0;0;0;0;0;0;4,892705;52,384193
+61;TK10;Teerketelsteeg 10;Achtergrond;Palmes;;0;0;26,5;29,3;30,6;32;30,7;32,2;32,4;33,6;0;0;4,892905;52,376993
+62;CCL137;Churchilllaan 137;Straat;Palmes;Nee;5,2;0;29,7;29,5;34,2;32,9;31,4;32,1;30,5;36;35,5;36;4,893105;52,346993
+63;SPUI29;Spuistraat 29;Straat;Palmes;Nee;4,3;0;32,9;37,2;39,6;41,1;38,1;41,3;42,5;42,8;43,4;48,2;4,893105;52,376993
+64;DIN94;Dintelstraat 94;Achtergrond;Palmes;;0;0;23,7;24,1;26,6;26,1;25,8;27,1;27;29,9;29,9;30,8;4,893505;52,343593
+65;RTK5;de Ruijterkade 5;Straat;Palmes;Nee;5,5;0;36;43,3;0;40,7;40,7;43,4;42,5;45;46,5;45,4;4,894705;52,382493
+66;BS19;Beursstraat 19;Achtergrond;Palmes;;0;0;34,3;38,4;0;42,7;42,6;43,7;42,1;43,4;43,2;44,6;4,896805;52,374993
+67;AV9;Amstelveld 9;Achtergrond;Palmes;;0;0;23,2;26;27;27,2;26,8;26,1;26,3;0;0;34,4;4,897905;52,362393
+68;STDK115;Stadhouderskade 115;Straat;Palmes;Nee;2,7;0;42,3;45,3;48,8;47,7;45,1;47;45,3;47;47,5;48,1;4,898305;52,357993
+69;UT66;Utrechtsestraat 66;Straat;Palmes;Ja;0;0;33,9;36;41,8;38,2;37,4;38,9;37,7;0;40,6;38,1;4,898505;52,362993
+70;VWS56;van Woustraat 56;Straat;Palmes;Nee;2;0;33,5;34;40,4;0;38,3;39,4;41,9;44,5;42,4;43,8;4,900305;52,355993
+71;HEN68;Prins Hendrikkade 68;Straat;Palmes;Nee;10,9;0;42;47,4;53;50,6;50,7;55,6;51,3;55,1;55,9;53,9;4,900605;52,376593
+72;STDK137;Stadhouderskade 137;Straat;Palmes;Ja;0;0;40;41,9;46,3;45,8;43;41;38,9;42,8;45,4;42,3;4,900905;52,357993
+73;HEMO18;Hemonylaan 18;Achtergrond;Palmes;;0;0;25,8;26,6;30,2;31;31,7;32,3;31,2;35,1;35,2;34;4,901105;52,357493
+74;RBS28;Recht Boomssloot 28;Achtergrond;Palmes;;0;0;26,7;30,1;33,6;31,9;32,8;31,3;31,6;33,2;33,9;35,2;4,902505;52,372693
+75;IJS27;IJsselstraat 27;Achtergrond;Palmes;;0;0;21,4;21,9;24;24,4;24,6;23,5;24,6;27,3;26,4;28,8;4,903305;52,347293
+76;VLK/hoek;Valkenburgerstraat bij mr Visserplein;Straat;Palmes;Nee;10,9;0;44,5;51,5;51,2;47,2;50,4;54,3;52,6;53,4;52,2;53,9;4,903905;52,368493
+77;AMS13;Amsteldijk 13;Straat;Palmes;Ja;0;0;33,5;34,8;37,4;0;0;0;0;0;0;0;4,904105;52,357593
+78;RIJN31;Rijnstraat 31;Straat;Palmes;Nee;5,3;0;30;32,1;34,9;36,7;34,9;38,3;42,8;47,6;41,1;41,7;4,904905;52,347993
+79;UIL70;Nieuwe Uilenburgerstraat 70;Achtergrond;Palmes;;0;0;24,8;27,1;26,9;28,1;27,8;28,4;28,5;32;30,7;33,8;4,905305;52,370693
+80;BIN37;Binnenkant 37;Achtergrond;Palmes;;0;0;26,4;30,4;30,7;31,5;30,5;32,2;32,4;32,8;33,4;34,8;4,905405;52,372993
+81;DORA1;Dora Tamanaplein 1;Achtergrond;Palmes;;0;0;22,9;23;26,6;25,6;23,6;24,3;23,9;27,3;26,6;28,8;4,905405;52,353793
+82;LEP4;Lepelstraat 4;Achtergrond;Palmes;;0;0;22,2;23,7;25,5;26,3;25,1;25,7;25,8;29,4;28;29,3;4,905505;52,362593
+83;WSS100;Weesperstraat 100;Straat;Palmes;Ja;0;0;33,7;34,9;38,6;0;0;0;0;0;0;0;4,905605;52,364793
+84;AMS46;Amsteldijk 46;Straat;Palmes;Nee;6,9;0;31,9;34,8;34,7;35,9;34,5;35,8;0;0;39,5;39,8;4,906105;52,354993
+85;WSS105;Weesperstraat 105;Straat;Palmes;Ja;0;0;29,5;34,2;36,9;0;0;0;0;0;0;0;4,906405;52,364393
+86;HEN150;Prins Hendrikkade 150;Straat;Palmes;Nee;3,9;0;40,1;49,6;58,5;56;56,8;55;53;58,5;59,5;58,3;4,906905;52,372993
+87;VLK68;Valkenburgerstraat 68;Straat;Palmes;Ja;0;0;37,7;39,6;45,7;40,9;0;0;0;0;0;0;4,907705;52,370093
+88;WSP13;Weesperplein 13;Straat;Palmes;Nee;16,8;0;29,6;32;34,5;34,4;35,4;35,6;33,6;37;37,5;41,8;4,907905;52,361993
+89;VLK1B;Valkenburgerstraat 1B;Straat;Palmes;Ja;0;0;36,4;41,5;43,5;0;0;0;0;0;0;0;4,908105;52,369893
+90;AFR212;Anne Frankstraat 212;Straat;Palmes;Ja;0;0;29;32,5;34,3;34;0;0;0;0;0;0;4,909205;52,369293
+91;HEN167;Prins Hendrikkade 167;Straat;Palmes;Ja;0;0;36,5;44,5;49,5;46;0;0;0;0;0;0;4,909405;52,371893
+92;WIB50;Wibautstraat 52;Straat;Palmes;Ja;0;0;31,5;33,6;36,6;0;0;0;0;0;0;0;4,910305;52,356993
+93;FOEL6;Foeliestraat 6 (IJ-tunnel);Straat;Palmes;Nee;8,5;0;44,8;50,2;53,4;46,4;47;47,8;48,3;50,8;49,7;52,1;4,910305;52,371493
+94;HP11c;Henri Polaklaan 11c;Achtergrond;Palmes;;0;0;22,8;24,3;27,7;26,6;26,8;26,9;27,2;28,9;27,9;30,5;4,911305;52,367793
+95;PKL45;Plantage Kerklaan 45;Straat;Palmes;Nee;3,9;0;23,7;24,2;28,1;26,8;27,2;29,2;29,7;31,7;32,2;34;4,912205;52,366993
+96;NGS97;Nachtegaalstraat 97;Achtergrond;Palmes;;0;0;27;27,3;33,3;31,1;29,8;31,4;29,8;34,8;35,2;35;4,913505;52,384893
+97;KAT6;Kattenburgerstraat 6;Straat;Palmes;Ja;0;0;29,6;32,5;32,1;32,3;30,9;0;0;0;0;0;4,916105;52,371393
+98;PBP;Prins Bernardplein;Straat;Palmes;Nee;19;0;32;35,8;39,4;37,2;37,4;39;38,3;41,7;40,6;42,9;4,919505;52,348993
+99;OBG75;Oostenburgergracht 75;Straat;Palmes;Nee;10,9;0;28,4;31,2;37,3;38,8;36,2;39,2;37,8;40,9;41,9;45,1;4,923705;52,367993
+100;SUM1435;Sumatrakade (IJ, woning);Waterweg;Palmes;;0;0;28,6;30,7;30,8;32,6;32,2;32,7;31,5;0;0;0;4,923705;52,379693
+101;JAVA700;Javakade 700;Waterweg;Palmes;;0;0;25;26;31,4;30,7;30,9;29,5;30;32,6;34,3;0;4,923805;52,378793
+102;MW269;Meeuwenlaan 269;Straat;Palmes;Nee;4,3;0;29,1;29,5;32,1;34,6;34,7;32,4;31,3;37,5;35,5;37,1;4,924305;52,387993
+103;SUM1369/W;Sumatrakade 1369 (aan rand IJ);Waterweg;Palmes;;0;0;26,8;31;31,8;32,6;32,2;32,2;33,3;0;0;0;4,924505;52,379993
+104;ADM58;Admiraliteitsstraat 58;Achtergrond;Palmes;;0;0;23,1;23,2;27;27;25,1;28;26;29,6;29,5;28,9;4,924805;52,368693
+105;BRAN4;Brantasgracht 4;Achtergrond;Palmes;;0;0;27,6;27,5;32,3;30,7;31,2;31,4;30,9;34,8;35,7;36,3;4,925205;52,379293
+106;ING10;Ingogostraat 10;Achtergrond;Palmes;;0;0;22;22,9;27,3;25,6;25,1;25,2;26;27,6;28,5;28,3;4,925805;52,355393
+107;MAUK109;Mauritskade 109;Straat;Palmes;Nee;5,3;0;26,5;28,7;29,5;31,7;29,2;32,1;31,5;35,5;36,3;42,3;4,926205;52,364993
+108;VLAM143;Pieter Vlamingstraat 143;Achtergrond;Palmes;;0;0;24,3;24,1;28,4;28,5;26,9;26,5;26,8;29;29,9;32,7;4,927205;52,365193
+109;LIN98;Linnaeusstraat 98;Straat;Palmes;Nee;5,3;0;34;34,6;40,6;39;35,8;38,6;37,7;42,9;44;42,8;4,927705;52,355993
+110;MID145;Middenweg 149;Straat;Palmes;Ja;0;0;24,8;27,3;29,5;28,7;29,8;30,5;31,4;33,4;34,2;35;4,934705;52,350993
+111;PYTH120;Pythagorasstraat 120;Achtergrond;Palmes;;0;0;20,9;21;24,6;23,2;23,8;24,4;24,7;27,9;25,9;26,7;4,936405;52,353493
+112;BOR79;Borneolaan 79;Straat;Palmes;Nee;5,5;0;29,2;31,4;34,5;37,4;34,2;36,8;35,3;37,4;37,4;38,9;4,936505;52,370993
+113;RS91;Riouwstraat 91;Achtergrond;Palmes;;0;0;22,3;23;23;25,8;25,3;26,3;26;28,6;29,9;26,7;4,937805;52,362193
+114;MOL101;Molukkenstraat 101;Straat;Palmes;Nee;5,2;0;33,9;36,4;36,9;37,8;34,7;39,7;41,1;40,7;43,1;45,9;4,939705;52,361993
+115;BOR143;Borneokade 143;Achtergrond;Palmes;;0;0;22,9;23,5;25,7;26,9;25,9;29;28,6;29,5;0;29;4,941805;52,370693
+116;MID560;Middenweg 560 (A10-Oost);Snelweg;Palmes;Nee;5,5;0;26,8;27,9;29,3;30,1;29,3;30,5;32,9;33,4;32,3;34,5;4,950705;52,340993
+117;T2;Zuidelijke IJdijk noord van tunnel (lp 114248);Straat;Palmes;Nee;0;0;29,5;0;0;0;0;0;0;0;0;0;4,957305;52,373493
+118;T1;Zuidelijke IJdijk 58;Straat;Palmes;Nee;10;0;26,5;0;0;0;0;0;0;0;0;0;4,957405;52,372693
+119;CVT9;Catharina van Tussenbroekstraat 9;Achtergrond;Palmes;;0;0;20,6;21,3;25,2;25,1;23,2;26,9;25,4;26,5;0;26,1;4,963905;52,320493
+120;BIJL738;Bijlmerdreef 738;Straat;Palmes;Nee;17,4;0;33,8;35,6;37,9;39,2;35,8;37,4;37,6;40,7;41,9;42,3;4,964205;52,319593
+121;T4;Mary van der Sluisstraat/hoek Kea Bouwmanstraat;Waterweg;Palmes;Nee;1,5;0;27,2;0;0;0;0;0;0;0;0;0;4,964805;52,376293
+122;KORT100;Kortvoort 100;Achtergrond;Palmes;Nee;17,4;0;20,3;21,2;24,9;23;20,3;20,6;20,6;23,3;22,3;25,7;4,968705;52,314793
+123;T6;Geertje Wielenplein (Ijburgcollege 2);Achtergrond;Palmes;;0;0;25,6;0;0;0;0;0;0;0;0;0;4,968705;52,372093
+124;T3;Leo Hornstraat 303;Snelweg;Palmes;Nee;14;0;31,3;0;0;0;0;0;0;0;0;0;4,971105;52,372093
+125;T7;Zwanenbloemlaan 38;Achtergrond;Palmes;;0;0;19,4;0;0;0;0;0;0;0;0;0;4,991105;52,356093
+126;T8;IJburglaan 866;Straat;Palmes;Nee;7;0;24;0;0;0;0;0;0;0;0;0;4,996105;52,354593
+127;T9;Ijburglaan 564;Straat;Palmes;Ja;0;0;21,1;0;0;0;0;0;0;0;0;0;4,989415;52,357973
+128;LOK15;Paal kop Westhavenweg,;Waterweg;Palmes;;0;0;32,1;0;0;0;0;0;0;0;0;0;4,821865;52,418611
+129;ESW/G;A10- West aan balkon Jephtastraat;Snelweg;Palmes;Nee;1,5;0;34,6;38,7;40,5;41,2;0;0;0;0;0;0;4,845285;52,381333
+130;A10 ZUID ;A10-Zuid bij voormalig automatisch meetstation GGD;Snelweg;Palmes;Nee;0;0;45,9;43,3;56,2;0;0;0;0;0;0;0;4,898395;52,333703
+131;AD7;Adelaarsstraat 7;Straat;Palmes;Nee;3;0;33;39;42,9;0;0;0;0;0;0;0;4,911455;52,384033
+132;AD14;Adelaarsstraat 14;Straat;Palmes;Nee;3;0;29,7;34;39,1;0;0;0;0;0;0;0;4,911975;52,384423
+133;LOK14;Hoek Noordzeekanaal/Amerikahaven;Waterweg;Palmes;;0;0;26;0;0;0;0;0;0;0;0;0;4,774418;52,425378
+134;HLW/OM;GGD meetstation Haarlemmerweg ;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,875805;52,385393
+135;NDD/OM;GGD meetstation Nieuwendammerdijk;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,943805;52,389293
+136;ESW;GGD meetstation A10-West;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,845225;52,381333
+137;VDS;GGD meetstation van Diemenstraat;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,887805;52,389993
+138;OVT/OM/E1;GGD meetstation Vondelpark ;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,866305;52,359693
+139;STDK/OM;GGD meetstation Stadhouderskade;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,899705;52,357993
+140;OS;GGD meetstation Oudeschans;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,904605;52,372093
+141;JVG/MS;GGD meetstation Jan van Galenstraat;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,860405;52,374793
+142;KANT;GGD meetstation Kantershof;Meetstation;Automatisch meetnet;;0;0;0;0;0;0;0;0;0;0;0;0;4,988405;52,320693
