@@ -114,7 +114,6 @@ def add_categorical_legend(folium_map, title, colors, labels):
       """
 
     css = """
-
     <style type='text/css'>
       .maplegend {
       position: relative;
@@ -257,58 +256,48 @@ with col1:
     scatter = px.scatter(time_filter, x='date_of_acceptance', y='ratio_electric', trendline='ols', trendline_options=dict(log_y=True),
                           trendline_color_override='red', title='Percentage of electric vehicles over time')
     scatter.update_yaxes(type=type)
-    scatter.update_xaxes(patch={'title':'Time (hours)'})
+    scatter.update_xaxes(patch={'title':'Date'})
     scatter.update_yaxes(patch={'title':'Percentage electric vehicles of total amount'})
     st.plotly_chart(scatter, True)
     
-    rdw['date_of_acceptance_y'] = pd.DatetimeIndex(rdw['date_of_acceptance']).year
+    rdw['date_of_acceptance'] = rdw['date_of_acceptance'].astype('datetime64[ns]')
 
-    X = pd.date_range(start='2010-01-01', end='2022-12-01', freq='MS')
-    y = rdw['electric_count']
+    rdw['electric'] = rdw['electric_count']
 
-    X_train, X_test, y_train, y_test = train_test_split(rdw.date_of_acceptance_y, y)
-
-    lr = LinearRegression()
-    lr.fit(X_train.values.reshape(-1, 1), y_train.values)
-
-    prediction = lr.predict(X_test.values.reshape(-1, 1))
-
-    years = list(range(2023, 2051))
-
-    df = pd.DataFrame(columns=['year', 'predicted_electric_count', 'predicted_non_electric_count', 'percentage'])
-    pre_electric = []
-
-    for year in years:
-        predicted = lr.predict(np.array([[year]]))[0]
-        # print(f'predicted {year} ratio: {lr.predict(np.array([[year]]))[0]}%')
-        pre_electric.append(predicted)
+    rdw['non_electric'] = rdw['gasoline_count'] + rdw['diesel_count'] + rdw['hydrogen_count'] + rdw['alcohol_count'] + rdw['lpg_count'] + rdw['cng_count'] + rdw['lng_count']
         
-    df['year'] = years
-    df['predicted_electric_count'] = pre_electric
+    rdw['electric_percentage'] = (rdw['electric'] / (rdw['electric'] + rdw['non_electric']) * 100)
 
-    y_non = rdw['non_electric']
-    X_train, X_test, y_train, y_test = train_test_split(rdw.date_of_acceptance_y, y_non)
+    rdw = rdw[rdw['date_of_acceptance'] >= '2010-01-01']
+    rdw = rdw[rdw['date_of_acceptance'] <= '2022-12-31']
+    input1 = rdw['electric'].to_list()
+    X1 = rdw['date_of_acceptance']
+    y1 = np.log10(input1)
 
-    lr = LinearRegression()
-    lr.fit(X_train.values.reshape(-1, 1), y_train.values)
+    model = LinearRegression()
+    model.fit(X1.values.reshape(-1,1), y1)
 
-    prediction = lr.predict(X_test.values.reshape(-1, 1))
+    X_predict1 = pd.date_range(start='2023-01-01', end='2051-01-01', freq='MS')
+    y_predict1 = model.predict(X_predict1.values.reshape(-1,1).astype("float64"))
+    new_electric = 10**(y_predict1)
+    df = pd.DataFrame()
+    df['pre_electric'] = new_electric.tolist()
+    input2 = rdw['non_electric'].to_list()
+    X2 = rdw['date_of_acceptance']
+    y2 = np.log10(input2)
 
-    pre_non_electric = []
+    model = LinearRegression()
+    model.fit(X2.values.reshape(-1,1), y2)
 
-    for year in years:
-        predicted = lr.predict(np.array([[year]]))[0]
-        # print(f'predicted {year} ratio: {lr.predict(np.array([[year]]))[0]}%')
-        pre_non_electric.append(predicted)
-
-
-    df['predicted_non_electric_count'] = pre_non_electric
-
-    df['percentage'] = df['predicted_electric_count'] / (df['predicted_electric_count'] + df['predicted_non_electric_count']) * 100
-
-    prediction_plot = px.line(df, x='year', y='percentage', title='Prediction of percentage of electric vehicles vs non electric vehicles in the Netherlands', log_y=True)
-    prediction_plot.update_xaxes(patch={'title':'Time (year)'})
-    prediction_plot.update_yaxes(patch={'title':'Percentage electric vehicles of total amount'})
+    X_predict2 = pd.date_range(start='2023-01-01', end='2051-01-01', freq='MS')
+    y_predict2 = model.predict(X_predict2.values.reshape(-1,1).astype("float64"))
+    new_non_electric = 10**(y_predict2)
+    df['pre_non_electric'] = new_non_electric.tolist()
+    df['percentage'] = (df['pre_electric'] / (df['pre_electric'] + df['pre_non_electric']) * 100)
+    df['date'] = X_predict2
+    prediction_plot = px.line(x = df.date, y = df.percentage, title='Predicted growth of the percentage of electric vehicles over time.', labels={'y': 'Percentage of electric vehicles', 'x': 'Date'})
+    
+    st.markdown('Below is the predictive plot of the percentage of electric vehicles in relation to all vehicles. This shows that over time, it is expected that electric vehicles will become the large majority of vehicles. This has been deduced using a linear regression algorythm from Scikit learn.')
     st.plotly_chart(prediction_plot, True)
 
 with col2:
