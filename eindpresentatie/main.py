@@ -90,7 +90,7 @@ html.Div([
         html.Hr(),
         html.Br(),
         html.Div([  
-            html.B('Select the preffered data to display on the scatterplot:'),
+            html.B('Select the preffered data to display on the scatterplot:', style={'margin-left':'20px'}),
             dcc.RadioItems(
                 id='radio_scatter',
                 options=[{'label': 'CO2 emissions', 'value': 'co2_emissions'}, 
@@ -111,7 +111,7 @@ html.Div([
         html.Div([
             html.Hr(),
             html.Br(),
-            html.P('Select the preffered data to display on the map:'),
+            html.B('Select the preffered data to display on the map:'),
             dcc.Dropdown(
                 id='emissions', 
                 className='dbc',
@@ -216,17 +216,16 @@ def update_scatter(value):
    if value == "co2_emissions":
     fig = px.scatter(emissions_gdp, x='year', y=value, color='region', 
                                                             labels={'year': 'Year', 'co2_emissions': 'CO2 emissions (kt)', 'region': 'Region', 
-                                                                    'gdp_per_capita': 'GDP per capita (USD)', 'population': 'Population', 
-                                                                    'methane_emissions': 'Methane emissions (kt)'},
+                                                                    'gdp_per_capita': 'GDP per capita (USD)', 'population': 'Population', },
                                                             title='CO2 emissions by region over the years', hover_name='country', 
-                                                            hover_data=['gdp_per_capita', 'population', 'co2_emissions', 'methane_emissions'],)
+                                                            hover_data=['gdp_per_capita', 'population', 'co2_emissions'],)
    elif value == "methane_emissions":
        fig = px.scatter(emissions_gdp, x='year', y=value, color='region', 
-                                                            labels={'year': 'Year', 'co2_emissions': 'CO2 emissions (kt)', 'region': 'Region', 
+                                                            labels={'year': 'Year', 'region': 'Region', 
                                                                     'gdp_per_capita': 'GDP per capita (USD)', 'population': 'Population', 
                                                                     'methane_emissions': 'Methane emissions (kt)'},
                                                             title='Methane emissions by region over the years', hover_name='country', 
-                                                            hover_data=['gdp_per_capita', 'population', 'co2_emissions', 'methane_emissions'],)
+                                                            hover_data=['gdp_per_capita', 'population', 'methane_emissions'],)
    
 
    return fig
