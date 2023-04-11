@@ -26,7 +26,7 @@ gdp.columns = gdp.columns.str.lower()
 
 pop = pop.rename(columns={'Country (or dependency)': 'country', 'Population (2020)': 'population', 'Density (P/Km²)': 'density', 
                           'Land Area (Km²)': 'land_area', 'Migrants (net)': 'migrants', 'Fert. Rate': 'fert_rate', 'Med. Age': 'med_age', 'Urban Pop %': 'urban_pop',
-                          'Yearly Change': 'yearly_change'})
+                          'Yearly Change': 'yearly_change', 'World Share': 'world_share'})
 
 
 with urlopen('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson') as response:
@@ -60,7 +60,7 @@ html.Div([
     ]),
 
     html.Div([
-        html.H3('Making some plots to visualize the data'),
+        html.H3('Histograms'),
         html.Hr(),
         html.Br(),
         html.Div([
@@ -82,6 +82,24 @@ html.Div([
         html.Div([
             dcc.Graph(id='histogram_emissions', style={'display': 'inline-block', 'width': '49%'}),
             dcc.Graph(id='histogram_population', style={'display': 'inline-block', 'width': '49%'}),
+        ]),
+    ]),
+
+    html.Div([
+       html.H3('Scatterplot'),
+        html.Hr(),
+        html.Br(),
+        html.Div([  
+            html.B('Select the preffered data to display on the scatterplot:'),
+            dcc.RadioItems(
+                id='radio_scatter',
+                options=[{'label': 'CO2 emissions', 'value': 'co2_emissions'}, 
+                {'label': 'Methane emissions', 'value': 'methane_emissions'}],
+                value='co2_emissions', style={'margin-left':'20px'}, className='dbc'
+            ),
+        ]),
+        html.Div([
+            dcc.Graph(id='scatterplot',),
         ]),
     ]),
 
@@ -170,7 +188,7 @@ def update_histogram(value):
 
     fig = px.histogram(hist_data, x='country', y=value, color='region', hover_data=hist_data.columns, height=600,
                        labels={'country': 'Country', 'region': 'Region', 'gdp_per_capita': 'GDP per capita in 2019 (USD)',
-                               'co2_emissions': 'CO2 emissions in 2019 (kt)', 'methane_emissions': 'Methane emissions in 2019 (kt)'})
+                               'co2_emissions': 'CO2 emissions in 2019 (kt)', 'methane_emissions': 'Methane emissions in 2019 (kt)'}, title='Histogram of emissions')
     
     return fig
 
@@ -184,23 +202,34 @@ def update_histogram(value):
 
     fig = px.histogram(hist_data, x='country', y=value, color='region', hover_data=hist_data.columns, height=600,
                        labels={'country': 'Country', 'region': 'Region', 'gdp_per_capita': 'GDP per capita in 2019 (USD)',
-                               'population': 'Population in 2019', 'density': 'Population density in 2019 (people/km2)',})
+                               'population': 'Population in 2019', 'density': 'Population density in 2019 (people/km2)',}, title='Histogram of population')
     
     return fig
 
+@app.callback(
+    Output('scatterplot', 'figure'),
+    [Input('radio_scatter', 'value')]
+)
 
+def update_scatter(value):
+   
+   if value == "co2_emissions":
+    fig = px.scatter(emissions_gdp, x='year', y=value, color='region', 
+                                                            labels={'year': 'Year', 'co2_emissions': 'CO2 emissions (kt)', 'region': 'Region', 
+                                                                    'gdp_per_capita': 'GDP per capita (USD)', 'population': 'Population', 
+                                                                    'methane_emissions': 'Methane emissions (kt)'},
+                                                            title='CO2 emissions by region over the years', hover_name='country', 
+                                                            hover_data=['gdp_per_capita', 'population', 'co2_emissions', 'methane_emissions'],)
+   elif value == "methane_emissions":
+       fig = px.scatter(emissions_gdp, x='year', y=value, color='region', 
+                                                            labels={'year': 'Year', 'co2_emissions': 'CO2 emissions (kt)', 'region': 'Region', 
+                                                                    'gdp_per_capita': 'GDP per capita (USD)', 'population': 'Population', 
+                                                                    'methane_emissions': 'Methane emissions (kt)'},
+                                                            title='Methane emissions by region over the years', hover_name='country', 
+                                                            hover_data=['gdp_per_capita', 'population', 'co2_emissions', 'methane_emissions'],)
+   
 
-
-
-
-
-
-
-
-
-
-
-
+   return fig
 
 # Execute app
 if __name__ == '__main__':
