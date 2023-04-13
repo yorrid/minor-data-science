@@ -138,6 +138,7 @@ dcc.Tabs(
                 dcc.Graph(id='histogram_population', style={'display': 'inline-block', 'width': '49%'}),
             ]),
             html.Br(),
+            html.Hr(),
             html.Br(),
             html.Div([
                 html.B('Select the preffered distribution to display on the histogram:', style={'margin-left':'20px'}),
