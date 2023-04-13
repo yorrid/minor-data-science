@@ -1,0 +1,54 @@
+.custom-tabs-container {
+    width: 100%;
+    text-align: center;
+}
+
+.custom-tab {
+    color:#586069;
+    background-color: #4d4d4d;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 3px solid transparent !important;
+    border-bottom: 2px solid #333232;
+    background-color: #a8aaac;
+    padding: 12px !important;
+    font-family: "system-ui";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.custom-tab--selected {
+    color: black;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid #1368ad !important;
+}
+
+.radio{
+    border: #4d4d4d 1px solid;
+    padding: 20px;
+}
+
+#datatable{
+    margin: 20px;
+}
+
+h3{
+    margin-top: 35px;
+    color: #4d4d4d;
+}
+
+h1{
+    margin-top: 35px;
+    color: #363636;
+}
+
+b {
+    color: #5f5f5f;
+}
+
+.dropdown {
+    width: 50%;
+    white-space: nowrap;
+}
